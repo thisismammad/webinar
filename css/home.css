@@ -1,0 +1,279 @@
+/* headder */
+header {
+  background-color: var(--white);
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 20px var(--gray);
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 95%;
+}
+
+header .logo {
+  text-align: center;
+}
+
+header nav {
+}
+
+header nav .top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .top-menu li {
+  margin: 5px 10px;
+}
+header nav .top-menu li a {
+}
+
+header .login-btns {
+}
+header .login-btns a {
+}
+header .login-btns a:nth-of-type(2) {
+  background-color: var(--white);
+  color: var(--text-color);
+}
+
+/* main */
+
+main {
+    margin-top: 10px;
+}
+
+main .top {
+  padding: 100px 0 50px 0;
+  border-radius: 25px 25px 0 0;
+  background-color: var(--gray);
+  display: flex;
+  align-items: center;
+}
+
+main .top > .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 20px;
+  padding: 30px;
+  height: 100%;
+}
+main .top > .right h1 {
+  font-size: x-large;
+}
+main .top > .right .top-main-btns {
+  display: flex;
+  gap: 20px;
+}
+main .top > .right .top-main-btns a {
+  border-radius: 25px;
+}
+main .top > .right .top-main-btns a:nth-of-type(2) {
+  background-color: transparent;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+}
+main .top > .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 20px;
+  position: relative;
+  padding: 0 20px 20px 20px;
+}
+main .top > .left .float {
+  background-color: var(--white);
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+main .top > .left .left-right {
+  top: 30%;
+  right: -1%;
+  z-index: 1;
+  display: flex;
+  padding: 5px 20px;
+  gap: 10px;
+}
+main .top > .left .left-right .profiles {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+main .top > .left .left-right .profiles .images {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+main .top > .left .left-right .profiles .images img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  /* position: absolute; */
+  border: 2px solid white;
+}
+main .top > .left .left-right .profiles .images img:nth-of-type(2) {
+  position: absolute;
+  right: 20px;
+  z-index: -1;
+}
+main .top > .left .left-right .profiles .images img:nth-of-type(3) {
+  position: absolute;
+  right: 40px;
+  z-index: -2;
+}
+main .top > .left .left-right .profiles .images img:nth-of-type(4) {
+  position: absolute;
+  right: 60px;
+  z-index: -3;
+}
+
+main .top > .left .left-left {
+  bottom: 10%;
+  left: 8%;
+}
+main .top > .left .image-container {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+main .top > .left .image-container img {
+  position: static;
+  z-index: 1;
+  width: 100%;
+}
+main .top .left .image-container .back {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 80%;
+  background-color: var(--blue);
+  bottom: 0;
+  border-radius: 25px;
+  z-index: 0;
+  overflow: hidden;
+}
+main .top .left .image-container .back > img {
+  filter: brightness(0) invert(1);
+  height: 100%;
+  width: auto;
+}
+
+main .middle {
+  margin: 80px 0;
+}
+main .middle .middle-top {
+  margin: 80px 0;
+}
+main .middle .middle-top .header-text {
+  margin: 20px;
+}
+main .middle .middle-top .header-text h1 {
+  margin-bottom: 5px;
+}
+
+.underline{
+    display: block;
+    width: 30px;
+    border-radius: 25px;
+    height: 3px;
+    background-color: var(--orange);
+}
+main .middle .middle-top .header-text > span {
+
+}
+main .middle .middle-top .middle-top-items {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0 10px;
+}
+main .middle .middle-top .middle-top-items .item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 20px;
+}
+main .middle .middle-top .middle-top-items .item:hover {
+  background-color: var(--white);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.185);
+}
+main .middle .middle-top .middle-top-items .item .item-logo {
+  text-align: center;
+  width: 80%;
+}
+main .middle .middle-top .middle-top-items .item .item-logo > img {
+}
+main .middle .middle-top .middle-top-items .item .item-text {
+}
+main .middle .middle-top .middle-top-items .item .item-text > h3 {
+}
+main .middle .middle-top .middle-top-items .item .item-text p {
+  text-align: justify;
+}
+
+main .middle .middle-buttom {
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+}
+main .middle .middle-buttom .right {
+  padding: 20px;
+  flex: 1;
+}
+main .middle .middle-buttom .right h3 {
+}
+main .middle .middle-buttom .right > span {
+  margin: 10px 0 20px 0;
+}
+main .middle .middle-buttom .right > p {
+  text-align: justify;
+}
+main .middle .middle-buttom .left {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+main .middle .middle-buttom .left .orange {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: var(--orange);
+  top: -13px;
+  right: 31px;
+  z-index: -1;
+  transform: rotate(40deg);
+}
+main .middle .middle-buttom .left .blue {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background-color: var(--blue);
+  z-index: -1;
+  transform: rotate(-5deg);
+  bottom: -10px;
+  left: 25px;
+}
+main .middle .middle-buttom .left video {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
+  border: 2px solid white;
+  width: 80%;
+}
