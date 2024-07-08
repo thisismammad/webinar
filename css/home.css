@@ -418,7 +418,8 @@ main .bottom-middle .content .item .image {
 }
 main .bottom-middle .content .item .image img {
   height: 100%;
-  
+  width: 100%;
+  object-fit: cover;
 }
 
 main .bottom-middle .content .item .discription {
