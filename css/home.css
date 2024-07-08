@@ -340,7 +340,7 @@ main .bottom .bottom-top .form-container form textarea {
 }
 main .bottom .bottom-top .image-conteaier {
   position: absolute;
-  width: 90%;
+  width: 98%;
   height: 90%;
   left: 50%;
   transform: translate(-50%);
