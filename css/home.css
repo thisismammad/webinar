@@ -176,8 +176,8 @@ main .top .left .image-container .back > img {
 }
 
 main .middle {
-  margin: 80px 0;
-  padding: 0 80px;
+  margin: 80px auto;
+  max-width: 1000px;
 }
 main .middle .middle-top {
   margin: 80px 0;
@@ -279,12 +279,14 @@ main .middle .middle-buttom .left video {
 }
 
 main .bottom {
-  margin: 200px 0;
-  padding: 0 80px;
+  margin: 200px auto;
+max-width: 1000px;
 }
 main .bottom .bottom-top {
   position: relative;
-  margin: 0 100px;
+  /* margin: 0 100px; */
+  max-width: 800px;
+  margin: 0 auto;
 }
 main .bottom .bottom-top .form-container {
   padding: 15px;
