@@ -22,10 +22,9 @@ html {
   background-color: #badcff;
 }
 body {
-
   font-size: 16px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px auto;
   position: relative;
   background-color: var(--white);
   z-index: -2;
@@ -36,7 +35,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border-radius: 10px;
+  border-radius: 20px;
   font-family: vazir;
 }
 a, .submit-btn{
@@ -66,7 +65,8 @@ img{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
+
 }
 
 /* Track */
@@ -83,5 +83,5 @@ img{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  /* cursor: pointer; */
 }
