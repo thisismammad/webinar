@@ -841,10 +841,12 @@ footer .bottom .copy-right .send-btn {
   }
   main .top > .left .left-right {
     top: 10%;
-    right: -5%;
+    right: 0;
+    margin-right: 5px;
   }
   main .top > .left .left-left {
     left: 0;
+    margin-left: 5px;
   }
   main .middle .middle-top .middle-top-items .item {
     flex-direction: column;
@@ -854,4 +856,11 @@ footer .bottom .copy-right .send-btn {
     text-align: center;
     width: 30%;
   }
+  main .bottom .bottom-top .image-conteaier > img {
+    height: 100%;
+}
+main .bottom .bottom-top .form-container form input[type="text"] {
+ 
+  width: 100%;
+}
 }
