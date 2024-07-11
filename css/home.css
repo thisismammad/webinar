@@ -863,4 +863,8 @@ main .bottom .bottom-top .form-container form input[type="text"] {
  
   width: 100%;
 }
+main .middle .middle-buttom .left video {
+ 
+  width: 95%;
+}
 }
