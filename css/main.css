@@ -37,6 +37,7 @@ body {
   padding: 0;
   border-radius: 20px;
   font-family: vazir;
+  transition: all 0.75s;
 }
 a, .submit-btn{
   outline: none;
@@ -61,6 +62,9 @@ h1 {
 
 img{
     width: 100%;
+}
+p{
+  border-radius: 0;
 }
 
 /* width */
