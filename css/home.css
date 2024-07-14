@@ -1,48 +1,5 @@
 /* headder */
-header {
-  background-color: var(--white);
-  padding: 10px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 5px 20px var(--gray);
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translate(-50%);
-  width: 95%;
-}
 
-header .logo {
-  text-align: center;
-}
-
-header nav {
-}
-
-header nav .top-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-header nav .top-menu li {
-  margin: 5px 10px;
-}
-header nav .top-menu li a {
-}
-
-header .login-btns {
-}
-header .login-btns a {
-}
-header .login-btns a:nth-of-type(2) {
-  background-color: var(--white);
-  color: var(--text-color);
-}
-.menu-btn {
-  display: none;
-}
 /* main */
 
 main {
@@ -533,194 +490,6 @@ main .bottom-bottom .comments .comment-content p {
   font-size: 0.9em;
 }
 
-footer {
-  background-color: var(--blue);
-  border-radius: 130px 0 25px 25px;
-  padding: 20px 50px;
-}
-
-footer .top section.content {
-  display: flex;
-}
-footer .top section.content > section .title {
-  margin: 20px 0;
-}
-footer .top section.content > section div.content {
-}
-footer .top section.content > section div.content > p {
-  text-align: justify;
-  color: var(--white);
-}
-footer .top section.content > section div.content > ul {
-}
-footer .top section.content > section div.content > ul li {
-  margin: 5px 0;
-}
-footer .top section.content > section div.content > ul li a {
-  display: block;
-  padding: 5px;
-  background-color: transparent;
-  width: max-content;
-}
-footer .top section.content > section div.content .email-container {
-}
-footer .top section.content > section div.content .email-container .email {
-  display: flex;
-  background-color: var(--white);
-  border-radius: 30px;
-}
-footer
-  .top
-  section.content
-  > section
-  div.content
-  .email-container
-  .email
-  > input {
-  border: none;
-  outline: none;
-  border-radius: 30px;
-  padding: 10px 15px;
-  width: 100%;
-}
-footer
-  .top
-  section.content
-  > section
-  div.content
-  .email-container
-  .email
-  > .send-btn {
-  background-color: var(--orange);
-  border-radius: 30px;
-}
-footer
-  .top
-  section.content
-  > section
-  div.content
-  .email-container
-  .email
-  > .send-btn
-  > input {
-  background-color: var(--orange);
-}
-footer
-  .top
-  section.content
-  > section
-  div.content
-  .email-container
-  .email
-  > .send-btn
-  > i {
-}
-footer .top section.content > section div.content .social {
-  margin-top: 50px;
-}
-footer .top section.content > section div.content .social .social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-footer .top section.content > section div.content .social .social-icons a {
-  padding: 0;
-  padding-right: 1px;
-  padding-top: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  background-color: var(--orange);
-}
-footer .top section.content > section div.content .social .social-icons a i {
-  font-size: 1.2em;
-}
-footer .top section.content > section:nth-of-type(1) {
-  flex: 3;
-}
-footer .top section.content > section:nth-of-type(2) {
-  margin-right: 50px;
-  flex: 1;
-}
-footer .top section.content > section:nth-of-type(3) {
-  flex: 2;
-  text-align: center;
-}
-
-footer .bottom {
-  display: flex;
-  align-items: center;
-  margin: 50px 0;
-  background-color: var(--white);
-  padding: 20px 40px;
-  justify-content: space-between;
-}
-footer .bottom .contact,
-.copy-right {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-footer .bottom .contact .icon {
-  width: 40px;
-  height: 40px;
-  background-color: var(--blue);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-footer .bottom .contact .icon > i {
-  font-size: 1.2em;
-}
-footer .bottom .contact .texts {
-}
-footer .bottom .contact .texts span {
-  display: block;
-}
-footer .bottom .contact .texts span:nth-of-type(2) {
-  font-weight: bold;
-}
-footer .bottom .copy-right {
-  gap: 30px;
-}
-footer .bottom .copy-right .send-btn {
-  border-radius: 35px;
-}
-
-@media screen and (max-width: 1024px) {
-  header nav .top-menu {
-    display: none;
-  }
-  footer .bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 15px;
-    align-items: end;
-  }
-  .copy-right {
-    grid-column: 2/ 3;
-    grid-row: 1 / 3;
-  }
-  header {
-    justify-content: space-between;
-  }
-  .menu-btn {
-    display: block;
-  }
-  header .logo {
-    flex: 1;
-    margin-right: 50px;
-  }
-}
 
 @media screen and (max-width: 950px) {
   main .top > .left .left-right {
@@ -747,16 +516,6 @@ footer .bottom .copy-right .send-btn {
     flex-direction: column;
     gap: 30px;
   }
-  footer {
-    padding: 20px 10px;
-  }
-  footer .top section.content > section:nth-of-type(2) {
-    margin-right: 0;
-  }
-  footer .top section.content > section div.content .email-container .email {
-    width: 60%;
-    margin: 0 auto;
-  }
   main .bottom-middle .content .item:first-child .image {
     flex-grow: 2;
   }
@@ -765,13 +524,6 @@ footer .bottom .copy-right .send-btn {
 @media screen and (max-width: 768px) {
   main .top {
     flex-direction: column-reverse;
-  }
-  header .login-btns {
-    display: none;
-  }
-  header .logo {
-    flex-grow: 0;
-    margin-right: 0;
   }
   main .middle .middle-top .middle-top-items {
     grid-template-columns: 1fr;
@@ -798,14 +550,7 @@ footer .bottom .copy-right .send-btn {
     left: 50%;
     transform: translate(-50%);
   }
-  footer .bottom {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  .copy-right {
-    grid-column: auto;
-    grid-row: auto;
-  }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -817,13 +562,9 @@ footer .bottom .copy-right .send-btn {
     top: 20%;
     right: 0;
   }
-  footer .top section.content > section div.content .email-container .email {
-    width: 100%;
-  }
   .content .item .discription p {
     height: 100px;
     overflow: hidden;
-    /* text-overflow: clip; */
   }
 }
 
@@ -833,12 +574,6 @@ footer .bottom .copy-right .send-btn {
   }
 }
 @media screen and (max-width: 460px) {
-  footer .bottom .copy-right {
-    flex-direction: column;
-  }
-  footer .bottom {
-    padding: 20px 10px;
-  }
   main .top > .left .left-right {
     top: 10%;
     right: 0;
@@ -858,13 +593,11 @@ footer .bottom .copy-right .send-btn {
   }
   main .bottom .bottom-top .image-conteaier > img {
     height: 100%;
-}
-main .bottom .bottom-top .form-container form input[type="text"] {
- 
-  width: 100%;
-}
-main .middle .middle-buttom .left video {
- 
-  width: 95%;
-}
+  }
+  main .bottom .bottom-top .form-container form input[type="text"] {
+    width: 100%;
+  }
+  main .middle .middle-buttom .left video {
+    width: 95%;
+  }
 }
