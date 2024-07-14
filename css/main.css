@@ -38,7 +38,19 @@ body {
   padding: 0;
   border-radius: 20px;
   font-family: vazir;
-  transition: all 0.5s;
+  transition: all 0.5s linear;
+
+
+  /* blue highlite and user select */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none !important;
+
 }
 a,
 .submit-btn {
@@ -110,7 +122,7 @@ header nav .top-menu {
   justify-content: space-between;
 }
 
-header nav .top-menu li {
+header nav .top-menu>li {
   margin: 5px 10px;
 }
 header nav .top-menu li a {
@@ -126,6 +138,26 @@ header .login-btns a:nth-of-type(2) {
 }
 .menu-btn {
   display: none;
+}
+
+.sub-menu{
+  background-color: var(--blue);
+  display: none;
+  transition: none;
+}
+nav ul{
+  position: relative;
+}
+nav li ul{
+  position: absolute;
+  top: 40px;
+ left: 55%;
+}
+aside li ul{
+
+}
+.sub-menu li{
+  margin: 20px 0;
 }
 
 /* side menu */
@@ -347,7 +379,7 @@ footer .bottom .copy-right .send-btn {
 }
 
 /* media */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1026px) {
   header nav{
     display: none;
   }
