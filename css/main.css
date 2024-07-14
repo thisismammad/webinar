@@ -56,9 +56,12 @@ a,
   border: none;
   text-decoration: none;
   padding: 3px 20px;
+  color: var(--text-color);
+  text-align: center;
+}
+.active-menu{
   background-color: var(--blue);
   color: var(--white);
-  text-align: center;
 }
 ul {
   list-style-type: none;
@@ -127,9 +130,9 @@ header nav .top-menu > li {
   margin: 5px 10px;
 }
 
-header .login-btns a:nth-of-type(2) {
-  background-color: var(--white);
-  color: var(--text-color);
+header .login-btns a:nth-of-type(1) {
+  background-color: var(--blue);
+  color: var(--white);
 }
 .menu-btn {
   display: none;
@@ -140,6 +143,9 @@ header .login-btns a:nth-of-type(2) {
   background-color: var(--blue);
   display: none;
   transition: none;
+}
+.sub-menu a {
+ color: var(--white);
 }
 nav ul {
   position: relative;
@@ -191,9 +197,9 @@ aside .login-btns a {
   border-radius: 25px;
   text-align: center;
 }
-aside .login-btns a:nth-of-type(2) {
-  background-color: transparent;
-  color: var(--text-color);
+aside .login-btns a:nth-of-type(1) {
+  background-color: var(--blue);
+  color: var(--white);
 }
 aside ul {
   width: 100%;
@@ -214,6 +220,10 @@ footer {
   background-color: var(--blue);
   border-radius: 130px 0 25px 25px;
   padding: 20px 50px;
+}
+
+footer a{
+  color: var(--white);
 }
 
 footer .top section.content {

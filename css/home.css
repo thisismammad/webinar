@@ -31,6 +31,8 @@ main .top > .right .top-main-btns {
 }
 main .top > .right .top-main-btns a {
   border-radius: 25px;
+  background-color: var(--blue);
+  color: var(--white);
 }
 main .top > .right .top-main-btns a:nth-of-type(2) {
   background-color: transparent;

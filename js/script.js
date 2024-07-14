@@ -5,12 +5,14 @@ const downArrow = document.querySelectorAll(".fa-angle-down");
 openMenu.addEventListener("click", () => {
   if (menu) {
     menu.style.right = 0;
+    $("html").css("overflow","hidden");
   }
 });
 closeMenu.addEventListener("click", () => {
   if (menu) {
     menu.style.right = "-100%";
     $(".sub-menu").slideUp(300);
+    $("html").css("overflow","auto");
   }
 });
 
