@@ -20,6 +20,7 @@
 html {
   direction: rtl;
   background-color: #badcff;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 16px;

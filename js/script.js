@@ -12,3 +12,11 @@ closeMenu.addEventListener("click", () => {
     menu.style.right = "-100%";
   }
 });
+
+
+const goTop = document.querySelector("#top")
+
+goTop.addEventListener("click",(e)=>{
+    e.preventDefault();
+    window.scrollTo(0, 0);
+})
