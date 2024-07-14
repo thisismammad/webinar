@@ -41,15 +41,14 @@ body {
   transition: all 0.25s linear;
 
   /* blue highlite and user select */
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    outline: none !important;
-
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none !important;
 }
 a,
 .submit-btn {
@@ -83,7 +82,7 @@ p {
 /* header */
 header {
   background-color: var(--white);
-  padding: 10px 50px;
+  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,19 +94,22 @@ header {
   width: 95%;
 }
 .logo {
-  
   background-color: var(--white);
   width: 100px;
   padding: 5px 0px;
   border-radius: 5px;
   cursor: pointer;
 }
-.logo a{
+.logo a {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: transparent;
   padding: 0;
+}
+
+footer .logo a{
+  justify-content: center;
 }
 
 .logo img {
@@ -121,16 +123,10 @@ header nav .top-menu {
   justify-content: space-between;
 }
 
-header nav .top-menu>li {
+header nav .top-menu > li {
   margin: 5px 10px;
 }
-header nav .top-menu li a {
-}
 
-header .login-btns {
-}
-header .login-btns a {
-}
 header .login-btns a:nth-of-type(2) {
   background-color: var(--white);
   color: var(--text-color);
@@ -139,23 +135,21 @@ header .login-btns a:nth-of-type(2) {
   display: none;
 }
 
-.sub-menu{
+.sub-menu {
   background-color: var(--blue);
   display: none;
   transition: none;
 }
-nav ul{
+nav ul {
   position: relative;
 }
-nav li ul{
+nav li ul {
   position: absolute;
   top: 40px;
- left: 55%;
+  left: 55%;
 }
-aside li ul{
 
-}
-.sub-menu li{
+.sub-menu li {
   margin: 20px 0;
 }
 
@@ -227,14 +221,12 @@ footer .top section.content {
 footer .top section.content > section .title {
   margin: 20px 0;
 }
-footer .top section.content > section div.content {
-}
+
 footer .top section.content > section div.content > p {
   text-align: justify;
   color: var(--white);
 }
-footer .top section.content > section div.content > ul {
-}
+
 footer .top section.content > section div.content > ul li {
   margin: 5px 0;
 }
@@ -244,8 +236,7 @@ footer .top section.content > section div.content > ul li a {
   background-color: transparent;
   width: max-content;
 }
-footer .top section.content > section div.content .email-container {
-}
+
 footer .top section.content > section div.content .email-container .email {
   display: flex;
   background-color: var(--white);
@@ -287,16 +278,7 @@ footer
   > input {
   background-color: var(--orange);
 }
-footer
-  .top
-  section.content
-  > section
-  div.content
-  .email-container
-  .email
-  > .send-btn
-  > i {
-}
+
 footer .top section.content > section div.content .social {
   margin-top: 50px;
 }
@@ -362,8 +344,6 @@ footer .bottom .contact .icon {
 footer .bottom .contact .icon > i {
   font-size: 1.2em;
 }
-footer .bottom .contact .texts {
-}
 footer .bottom .contact .texts span {
   display: block;
 }
@@ -378,8 +358,8 @@ footer .bottom .copy-right .send-btn {
 }
 
 /* media */
-@media screen and (max-width: 1026px) {
-  header nav{
+@media screen and (max-width: 1028px) {
+  header nav {
     display: none;
   }
   footer .bottom {
@@ -396,10 +376,12 @@ footer .bottom .copy-right .send-btn {
   .menu-btn {
     display: block;
   }
+  .logo a {
+    justify-content: flex-end;
+  }
 }
 
 @media screen and (max-width: 950px) {
-
   footer {
     padding: 20px 10px;
   }
@@ -413,7 +395,6 @@ footer .bottom .copy-right .send-btn {
 }
 
 @media screen and (max-width: 768px) {
-
   header .login-btns {
     display: none;
   }
@@ -428,7 +409,6 @@ footer .bottom .copy-right .send-btn {
 }
 
 @media screen and (max-width: 650px) {
-
   footer .top section.content > section div.content .email-container .email {
     width: 100%;
   }
@@ -447,9 +427,6 @@ footer .bottom .copy-right .send-btn {
   }
 }
 
-
-
-
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -465,9 +442,4 @@ footer .bottom .copy-right .send-btn {
 ::-webkit-scrollbar-thumb {
   background: var(--orange);
   border-radius: 3px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  /* cursor: pointer; */
 }

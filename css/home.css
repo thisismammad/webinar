@@ -154,8 +154,7 @@ main .middle .middle-top .header-text h1 {
   height: 3px;
   background-color: var(--orange);
 }
-main .middle .middle-top .header-text > span {
-}
+
 main .middle .middle-top .middle-top-items {
   margin-top: 10px;
   display: grid;
@@ -175,12 +174,7 @@ main .middle .middle-top .middle-top-items .item .item-logo {
   text-align: center;
   width: 80%;
 }
-main .middle .middle-top .middle-top-items .item .item-logo > img {
-}
-main .middle .middle-top .middle-top-items .item .item-text {
-}
-main .middle .middle-top .middle-top-items .item .item-text > h3 {
-}
+
 main .middle .middle-top .middle-top-items .item .item-text p {
   text-align: justify;
 }
@@ -194,8 +188,7 @@ main .middle .middle-buttom .right {
   padding: 20px;
   flex: 1;
 }
-main .middle .middle-buttom .right h3 {
-}
+
 main .middle .middle-buttom .right > span {
   margin: 10px 0 20px 0;
 }
@@ -251,13 +244,11 @@ main .bottom .bottom-top .form-container {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.37);
   margin-right: 100px;
 }
-main .bottom .bottom-top .form-container > h3 {
-}
+
 main .bottom .bottom-top .form-container > span {
   margin: 10px 0;
 }
-main .bottom .bottom-top .form-container form {
-}
+
 main .bottom .bottom-top .form-container form input[type="text"] {
   outline: none;
   border: none;
@@ -338,8 +329,7 @@ main .bottom-middle .header {
   align-items: center;
   justify-content: space-between;
 }
-main .bottom-middle .header .title {
-}
+
 main .bottom-middle .content {
   margin-top: 50px;
   display: grid;
@@ -386,8 +376,7 @@ main .bottom-middle .content .item .discription {
   flex-direction: column;
   justify-content: space-between;
 }
-main .bottom-middle .content .item .discription h4 {
-}
+
 main .bottom-middle .content .item .discription p {
   font-size: 0.8em;
 }
@@ -414,8 +403,7 @@ main .bottom-bottom .comments {
 main .bottom-bottom .comments .head {
   padding: 20px;
 }
-main .bottom-bottom .comments .comment-container {
-}
+
 main .bottom-bottom .comments .comment-container .comment {
   background-color: var(--white);
   padding: 20px;
@@ -450,17 +438,7 @@ main
   object-fit: cover;
   border-radius: 50%;
 }
-main .bottom-bottom .comments .comment-container .comment .comment-head .name {
-}
-main
-  .bottom-bottom
-  .comments
-  .comment-container
-  .comment
-  .comment-head
-  .name
-  h5 {
-}
+
 main
   .bottom-bottom
   .comments
@@ -473,23 +451,13 @@ main
   font-size: 0.5em;
   color: #f39c12;
 }
-main
-  .bottom-bottom
-  .comments
-  .comment-container
-  .comment
-  .comment-head
-  .name
-  .stars
-  i {
-}
+
 main .bottom-bottom .comments .comment-content {
   margin-top: 10px;
 }
 main .bottom-bottom .comments .comment-content p {
   font-size: 0.9em;
 }
-
 
 @media screen and (max-width: 950px) {
   main .top > .left .left-right {
@@ -550,7 +518,6 @@ main .bottom-bottom .comments .comment-content p {
     left: 50%;
     transform: translate(-50%);
   }
-
 }
 
 @media screen and (max-width: 650px) {
