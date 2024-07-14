@@ -1,13 +1,9 @@
 /* headder */
 
 /* main */
-
-main {
-}
-
 main .top {
   padding: 100px 0 50px 0;
-  border-radius: 25px 25px 0 0;
+  border-radius: 10px 10px 0 0;
   background-color: var(--gray);
   display: flex;
   align-items: center;
