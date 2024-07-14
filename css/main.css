@@ -133,6 +133,7 @@ header .login-btns a:nth-of-type(2) {
 }
 .menu-btn {
   display: none;
+  cursor: pointer;
 }
 
 .sub-menu {
