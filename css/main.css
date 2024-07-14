@@ -38,8 +38,7 @@ body {
   padding: 0;
   border-radius: 20px;
   font-family: vazir;
-  transition: all 0.5s linear;
-
+  transition: all 0.25s linear;
 
   /* blue highlite and user select */
     -webkit-tap-highlight-color: transparent;

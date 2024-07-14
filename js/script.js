@@ -1,7 +1,7 @@
 const openMenu = document.querySelector(".menu-btn");
 const closeMenu = document.querySelector(".close-menu");
 const menu = document.querySelector("aside");
-
+const downArrow = document.querySelectorAll(".fa-angle-down");
 openMenu.addEventListener("click", () => {
   if (menu) {
     menu.style.right = 0;
@@ -20,7 +20,9 @@ window.addEventListener("resize", function () {
   if (width !== prevWidth) {
     prevWidth = width;
     menu.style.right = "-100%";
-    $("aside .sub-menu").slideUp(300);
+    $(".sub-menu").slideUp(300);
+    downArrow[0].style.transform= "rotate(0)";
+    downArrow[1].style.transform= "rotate(0)";
   }
 });
 
@@ -34,8 +36,13 @@ goTop.addEventListener("click", (e) => {
 $(".has-sub").on("click", () => {
   const sub = $(".sub-menu");
   if(sub.css("display") =="block"){
+    downArrow[0].style.transform= "rotate(0)";
+    downArrow[1].style.transform= "rotate(0)";
     sub.slideUp(300)
   }else{
     sub.slideDown(300)
+    downArrow[0].style.transform= "rotate(180deg)";
+    downArrow[1].style.transform= "rotate(180deg)";
+
   }
 });
