@@ -391,7 +391,22 @@ footer .bottom .copy-right .send-btn {
     justify-content: flex-end;
   }
 }
-
+.send-btn {
+  margin-right: auto;
+  width: max-content;
+  outline: none;
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.send-btn i {
+  color: var(--white);
+}
 @media screen and (max-width: 950px) {
   footer {
     padding: 20px 10px;

@@ -257,22 +257,6 @@ main .bottom .bottom-top .form-container form input[type="text"] {
   width: 70%;
 }
 
-.send-btn {
-  margin-right: auto;
-  width: max-content;
-  outline: none;
-  border: none;
-  background-color: var(--blue);
-  color: var(--white);
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 10px;
-  cursor: pointer;
-}
-.send-btn i {
-  color: var(--white);
-}
 main .bottom .bottom-top .form-container form textarea {
   outline: none;
   border: none;
