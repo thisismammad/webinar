@@ -136,8 +136,7 @@ main .middle .middle-top section .texts {
   display: flex;
   flex-direction: column;
 }
-main .middle .middle-top section .texts span {
-}
+
 main .middle .middle-top section .texts span:nth-last-child(1) {
   font-size: 0.9em;
 }
@@ -192,8 +191,6 @@ main .middle .middle-buttom .cards .card:hover {
 }
 .card-content > p {
   text-align: justify;
-}
-.card-content .attributes {
 }
 .card-content .attributes .attr-item {
   font-weight: bold;
@@ -301,8 +298,8 @@ main .bottom .left .float {
 }
 @media screen and (max-width: 950px) {
   main .middle .middle-buttom {
-   margin-top: 80px;
-}
+    margin-top: 80px;
+  }
 }
 @media screen and (max-width: 768px) {
   main .top {
@@ -343,22 +340,20 @@ main .bottom .left .float {
 @media screen and (max-width: 675px) {
   main .middle .middle-buttom {
     margin-top: 140px;
- }
- main .middle .middle-top section .texts span:nth-last-child(1) {
-  font-size: 0.9em;
+  }
+  main .middle .middle-top section .texts span:nth-last-child(1) {
+    font-size: 0.9em;
+  }
+  main .middle .middle-top {
+    padding: 20px;
+  }
+  main .middle .middle-top section .texts span:nth-last-child(2) {
+    font-weight: bolder;
+    font-size: 1em;
+  }
 }
-main .middle .middle-top {
-  padding: 20px;
-}
-main .middle .middle-top section .texts span:nth-last-child(2) {
-  font-weight: bolder;
-  font-size: 1em;
-}
-}
-
 
 @media screen and (max-width: 650px) {
-  
   main .bottom .left .special-card {
     width: 90%;
   }
@@ -367,8 +362,6 @@ main .middle .middle-top section .texts span:nth-last-child(2) {
   }
 }
 
-@media screen and (max-width: 500px) {
-}
 @media screen and (max-width: 436px) {
   main .bottom {
     height: 730px;
@@ -377,9 +370,7 @@ main .middle .middle-top section .texts span:nth-last-child(2) {
     width: 100%;
   }
   main .bottom .left .float {
-    left: -10%;
+    left: -6%;
     top: -5%;
   }
 }
-
-
